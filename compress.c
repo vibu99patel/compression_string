@@ -33,9 +33,9 @@ void compress(char *input, char *output) {
     q = output;   
     // encoding the message
     while (*p != '\0') {
-        char current_ch = *p;  // store comparing character 
+        char current_ch = *p;  // store comparing character1 
         int count_ch = 1;    // keep track of repeated characters
-        while (*(p+1) == current_ch) { // to check if character equals
+        while (*(p+1) == current_ch) { // to check if character equals1
             count_ch++;    
             p++;
         }
